@@ -1,0 +1,16 @@
+.select-list {
+	ul {
+		padding: 0px;
+
+		li {
+			white-space: nowrap;
+			overflow: hidden !important;
+			text-overflow: ellipsis;
+		}
+	}
+
+	h2 {
+		color: rgb(109, 145, 223);
+		text-align: center;
+	}
+}
