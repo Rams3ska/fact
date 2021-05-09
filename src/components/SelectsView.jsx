@@ -6,7 +6,7 @@ export default function Selectsview(props) {
 	const { selects = [] } = props;
 
 	return (
-		<div className="select-list island card ">
+		<div className="select-list island card">
 			<h1>Список выбранных элементов</h1>
 			{!selects.length && <h2>Пусто</h2>}
 			<ul>
